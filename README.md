@@ -1,4 +1,4 @@
-# Update [your_table] Queries Generator
+# Queries Generator
 
 This script generates SQL queries for [INSERT/DELET/UPDATE/] [your_table] in bulk. It reads IDs from a CSV file and creates individual queries for each id.
 
@@ -33,7 +33,7 @@ This script generates SQL queries for [INSERT/DELET/UPDATE/] [your_table] in bul
 Each output file contains one row per user, with the following structure:
 | query |
 |-------|
-| UPDATE your_table SET `value` = '1', `updated_at` = NOW() WHERE `id` = [USER_ID] AND `key` = 'default_wallet'; |
+| UPDATE your_table SET `value` = '1', `updated_at` = NOW() WHERE `id` = [USER_ID] AND `key` = 'default'; |
 
 ## Note:
 
