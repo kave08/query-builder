@@ -1,11 +1,11 @@
 # Queries Generator
 
-This script generates SQL queries for [INSERT/DELET/UPDATE/] [your_table] in bulk. It reads IDs from a CSV file and creates individual queries for each id.
+This script generates SQL queries for [INSERT/DELET/UPDATE] [your_table] in bulk. It reads IDs from a CSV file and creates individual queries for each id.
 
 ## Features:
 
-- Reads IDs from a CSV file named for examlpe 'user_ids.csv'
-- Splits IDs into smaller batches of 200,000 for efficient processing
+- Reads IDs from a CSV file named for examlpe 'ids.csv'
+- Splits IDs into smaller batches of for examlpe 200,000 for efficient processing
 - Generates SQL queries for each ID
 - Saves generated queries to separate CSV files
 
