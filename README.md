@@ -18,7 +18,7 @@ This script generates SQL queries for [INSERT/DELET/UPDATE/] [your_table] in bul
 ## Configuration:
 
 - The script processes IDs in batches of 200,000 (configurable)
-- Output files are saved as 'update_queries_X.csv' where X is the batch number
+- Output files are saved as 'bulk_queries_X.csv' where X is the batch number
 
 ## How it works:
 
